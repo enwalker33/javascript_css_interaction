@@ -1,0 +1,11 @@
+img{
+    background: aliceblue;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+button,
+img,
+p {
+    margin: 10px 0 0;
+}
