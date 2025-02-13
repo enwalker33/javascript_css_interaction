@@ -1,0 +1,11 @@
+span {
+    color: #0078E6;
+}
+
+span.teaspoon {
+    color: #FF5733; /* Different color for teaspoons */
+}
+
+span.cup {
+    color: #32CD32; /* Different color for cups */
+}
