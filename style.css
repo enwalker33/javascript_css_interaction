@@ -1,21 +1,26 @@
-span {
-    color: #0078E6;
+/* simple grid layout */
+/* grid container */
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+        "header header header header"
+        "sidebar main main main"
+        "sidebar photo photo button"
+        "footer footer footer footer";
 }
 
-span.teaspoon {
-    color: #FF5733; /* Different color for teaspoons */
+/* grid-area items */
+.item {
+    background-color: aliceblue;
+    color: #000;
+    text-align: center;
+    padding: 5px;
 }
 
-span.cup {
-    color: #32CD32; /* Different color for cups */
-}
-
-div {
-
-    margin: 60px;
-    padding: 10px;
-    border: 3px solid #01070c;
-    border-radius: 5px;
-    text-align: left;
-    background-color: beige;
-}
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+.photo { grid-area: photo; }
+.button { grid-area: button; }
